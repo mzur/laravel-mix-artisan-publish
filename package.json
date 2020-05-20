@@ -1,0 +1,35 @@
+{
+  "name": "laravel-mix-artisan-publish",
+  "version": "0.1.0",
+  "description": "Laravel Mix plugin to run `php artisan vendor:publish` by chaining `.publish()`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/mzur/laravel-mix-artisan-publish",
+  "author": "Martin Zurowietz <martin@zurowietz.de>",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "laravel mix",
+    "mix",
+    "artisan",
+    "mix publish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzur/laravel-mix-artisan-publish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mzur/laravel-mix-artisan-publish/issues"
+  },
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  },
+  "peerDependencies": {
+    "laravel-mix": "^4.0||^5.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
