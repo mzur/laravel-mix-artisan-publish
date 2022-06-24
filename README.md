@@ -7,7 +7,7 @@ This extension allows you to automatically publish your assets with `php artisan
 You can install the package with npm:
 
 ```bash
-npm install --save-dev git://github.com/mzur/laravel-mix-artisan-publish.git
+npm install @mzur/laravel-mix-artisan-publish
 ```
 
 Then require the extension in your Mix configuration:
@@ -15,7 +15,7 @@ Then require the extension in your Mix configuration:
 ```js
 const mix = require('laravel-mix');
 
-require('laravel-mix-artisan-publish');
+require('@mzur/laravel-mix-artisan-publish');
 ...
 ```
 
