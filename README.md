@@ -4,7 +4,13 @@ This extension allows you to automatically publish your assets with `php artisan
 
 ## Usage
 
-You can install the package with npm:
+You can install the package with npm via the GitHub package registry. First, in the directory of your `package.json` run:
+
+```
+echo "@mzur:registry=https://npm.pkg.github.com" >> .npmrc
+```
+
+Then run:
 
 ```bash
 npm install --save-dev @mzur/laravel-mix-artisan-publish
