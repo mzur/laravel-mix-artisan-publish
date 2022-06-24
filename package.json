@@ -1,5 +1,5 @@
 {
-  "name": "laravel-mix-artisan-publish",
+  "name": "@mzur/laravel-mix-artisan-publish",
   "version": "1.0.0",
   "description": "Laravel Mix plugin to run `php artisan vendor:publish` by chaining `.publish()`",
   "main": "index.js",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mzur/laravel-mix-artisan-publish.git"
+    "url": "git://github.com/mzur/laravel-mix-artisan-publish.git"
   },
   "bugs": {
     "url": "https://github.com/mzur/laravel-mix-artisan-publish/issues"
@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=6.0.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
